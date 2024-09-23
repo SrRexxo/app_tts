@@ -33,11 +33,15 @@ text = st.text_area("Ingrese El texto a escuchar.")
 tld='com'
 option_lang = st.selectbox(
     "Selecciona el lenguaje",
-    ("Español", "English"))
+    ("Español", "English", "Frances", "Aleman"))
 if option_lang=="Español" :
     lg='es'
-if option_lang=="English" :
+if option_lang=="Ingles" :
     lg='en'
+if option_lang=="Frances" :
+    lg='fr'
+if option_lang=="Aleman" :
+    lg='de'
 
 def text_to_speech(text, tld,lg):
     
