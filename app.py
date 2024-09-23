@@ -32,7 +32,7 @@ text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
-    "Selecciona el lenguaje",
+    "Selecciona el acento con el cual quieres escuchar tu audio",
     ("Español", "Ingles", "Frances", "Aleman"))
 if option_lang=="Español" :
     lg='es'
@@ -45,7 +45,7 @@ if option_lang=="Aleman" :
 
 def text_to_speech(text, tld,lg):
     
-    tts = gTTS(text,lang=lg) # tts = gTTS(text,'en', tld, slow=False)
+    tts = gTTS(text,lg, tld, slow=False) # tts = gTTS(text,'en', tld, slow=False)
     try:
         my_file_name = text[0:20]
     except:
