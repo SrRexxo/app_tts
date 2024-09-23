@@ -8,7 +8,7 @@ from PIL import Image
 import base64
 
 st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+image = Image.open('pastor.jpg')
 st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
@@ -20,13 +20,11 @@ except:
     pass
 
 st.subheader("Una pequeña Fábula.")
-st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al principio era tan grande que le tenía miedo. '  
-         ' Corría y corría y por cierto que me alegraba ver esos muros, a diestra y siniestra, en la distancia. ' 
-         ' Pero esas paredes se estrechan tan rápido que me encuentro en el último cuarto y ahí en el rincón está '  
-         ' la trampa sobre la cual debo pasar. Todo lo que debes hacer es cambiar de rumbo dijo el gato...y se lo comió. ' 
-         '  '
-         ' Franz Kafka.'
-        
+st.write(' Un joven pastor, encargado de cuidar un rebaño de ovejas, disfrutaba jugando bromas a los aldeanos.  '  
+         ' Varias veces gritó a voz en cuello "¡Lobo, lobo!", haciendo creer a los habitantes del pueblo que un feroz lobo amenazaba a sus ovejas. ' 
+         ' Al ver que nadie acudía en su ayuda, los aldeanos, cansados de sus mentiras, dejaron de creerle. '  
+         ' Sin embargo, un día, el lobo apareció de verdad y atacó al rebaño. ' 
+         ' Pero esta vez nadie acudió al rescate del pastorcito, quien se quedó sin sus ovejas y aprendió una valiosa lección sobre la importancia de la honestidad. '        
         )
            
 st.markdown(f"Quieres escucharlo?, copia el texto")
