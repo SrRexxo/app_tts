@@ -44,8 +44,8 @@ if option_lang=="Aleman" :
     lg='de'
 
 def text_to_speech(text, tld,lg):
-    
-    tts = gTTS(text,lg, tld, slow=False) # tts = gTTS(text,'en', tld, slow=False)
+    lang=lg
+    tts = gTTS(text,lang, tld, slow=False) # tts = gTTS(text,'en', tld, slow=False)
     try:
         my_file_name = text[0:20]
     except:
