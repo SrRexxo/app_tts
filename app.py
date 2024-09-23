@@ -27,7 +27,7 @@ st.write(' Un joven pastor, encargado de cuidar un rebaño de ovejas, disfrutaba
          ' Pero esta vez nadie acudió al rescate del pastorcito, quien se quedó sin sus ovejas y aprendió una valiosa lección sobre la importancia de la honestidad. '        
         )
            
-st.markdown(f"Quieres escucharlo?, copia el texto")
+st.markdown("Puedes escuchar el anterior texto, o cualquiera que quieras, solo pega el texto en la parte de abajo")
 text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
