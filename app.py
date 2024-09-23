@@ -19,7 +19,7 @@ try:
 except:
     pass
 
-st.subheader("Una pequeña Fábula.")
+st.subheader("El pastorcito mentiroso")
 st.write(' Un joven pastor, encargado de cuidar un rebaño de ovejas, disfrutaba jugando bromas a los aldeanos.  '  
          ' Varias veces gritó a voz en cuello "¡Lobo, lobo!", haciendo creer a los habitantes del pueblo que un feroz lobo amenazaba a sus ovejas. ' 
          ' Al ver que nadie acudía en su ayuda, los aldeanos, cansados de sus mentiras, dejaron de creerle. '  
